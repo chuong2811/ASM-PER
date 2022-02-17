@@ -142,57 +142,45 @@ header{
 .menu .nav>li>a:hover{
     color: #999;
 }
-.poster{
-    width: 100%;
-    padding-top: 0px;
+.batdau{
+    padding-top: 150px;
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
-.poster img{
-    max-width: 100%;
+.form{
+   padding-top: 0px;
+   font-family: 'Be Vietnam Pro', sans-serif; 
+   text-align: center;
 }
-.phude{
-    color: black;
-    padding: 10px;
-    margin: 5px;
-    border-bottom: 3px dashed gray;
+.gioitinh {
+    padding-right: 220px;
+}
+.control{
+    width: 25%;
+    top: -15px;
+    right:0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 1px solid #b9b9b9;
+    background-color: rgb(223, 222, 222);
+    border-radius: 4px;
+    outline:none;
+    padding: 10px 12px;
+}
+.control:focus{
     background-color: white;
 }
-.sanpham .Sanpham{
-    width: 22%;
-    display: inline-block;
-    margin: 17px;
-    z-index: 3;
+.control1{
+    width: 20%;
+    background-color: black;
+    color: #f8f8f8;
+    padding: 10px 12px;
+    box-shadow: 0 0 0 0;
 }
-
-.sanpham .Sanpham .pro1 {
-    margin: 17px auto;
-    height: 0px;
-    position: relative;
-    text-align: center;
-}
-.sanpham .Sanpham .pro1 img{
-    max-width: 100%;
-}
-.sanpham .Sanpham .pro1 a{
-    text-decoration: none;
+.control1:hover{
+    background-color: whitesmoke;
     color: black;
-}
-.sanpham .Sanpham .pro1 .img-change{
-    position: absolute;
-    top:0px;
-    right:0px;
-    opacity: 1;
-    transition: all 0.5s;
-}
-.sanpham .Sanpham .pro1:hover .img-change{
-    opacity: 0;
-}
-.sale{
-    color:red;
-    left:0;
-    top:0;
-    position: absolute;
-    clear: both;
-    z-index: 4;
+    box-shadow: 0 0 0 0;
 }
 .hotline{
     height: 70px;
