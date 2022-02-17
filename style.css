@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+/* remove animation for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html{
+    font-family: 'Gentium Basic', serif;
+}
+header{
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left: 0px;
+    z-index: 5;
+}
+.ten{
+    font-variant: small-caps;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    background: white;
+}
+.ten h1{
+    padding:0px;
+    width: 210px;
+    height: 50px;
+    padding-left: 25px 25px;
+    margin: 0px auto;
+    border: 1px solid white;
+}
+.ten img{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+.ten .phukien{
+    position: absolute !important ;
+    max-width: 100%;
+    top: 10px;
+    right:20px;
+}
+.ten .phukien .control{
+    /* display: none; */
+    position:relative;
+    top: -15px;
+    right:0;
+    width: 200px;
+    padding: 0px; 
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 10px 12px;
+}
+.menu{
+    text-align: center;
+    background: black;
+    padding: 0.5px; 
+}
+.menu .nav>li{
+    display: inline-block;
+    margin-right: 30px;
+}  
+.menu .nav>li>a{
+    color: white;
+    text-decoration: none;
+}
+.sub-menu{
+    text-align: left;
+    color: black;
+}
+.menu .nav .sub-menu>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu .nav li{
+    position: relative;
+    list-style:none;
+}
+.menu .nav li a{
+    padding: 10px;
+    line-height: 20px;
+    display: inline-block;
+}
+.menu .nav .sub-menu{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 0px; 
+    top: 40px;
+    left: 0;
+}
+.menu .nav .sub-menu>li:hover{
+    background-color:  gray;
+}
+.menu .nav li:hover>.sub-menu{
+    display: block;
+}
+.menu .nav>li>a:hover{
+    color: #999;
+}
+.poster{
+    width: 100%;
+    padding-top: 0px;
+}
+.poster img{
+    max-width: 100%;
+}
+.phude{
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-bottom: 3px dashed gray;
+    background-color: white;
+}
+.sanpham .Sanpham{
+    width: 22%;
+    display: inline-block;
+    margin: 17px;
+    z-index: 3;
+}
+
+.sanpham .Sanpham .pro1 {
+    margin: 17px auto;
+    height: 0px;
+    position: relative;
+    text-align: center;
+}
+.sanpham .Sanpham .pro1 img{
+    max-width: 100%;
+}
+.sanpham .Sanpham .pro1 a{
+    text-decoration: none;
+    color: black;
+}
+.sanpham .Sanpham .pro1 .img-change{
+    position: absolute;
+    top:0px;
+    right:0px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+.sanpham .Sanpham .pro1:hover .img-change{
+    opacity: 0;
+}
+.sale{
+    color:red;
+    left:0;
+    top:0;
+    position: absolute;
+    clear: both;
+    z-index: 4;
+}
+.hotline{
+    height: 70px;
+    background: whitesmoke;
+    line-height: 70px;
+}
+.hotline p{
+    margin: 30px;
+}
+.hotline p a{
+    text-decoration: none;
+    color:black;
+}
+footer{
+    position: relative;
+    width: 90%;
+    height: 275px;
+    padding: 10px;
+    background: white;
+    font-family: 'Be Vietnam Pro', sans-serif; ;
+}
+footer .ended{
+    display: flex;
+}
+footer .ended .footer-icon{
+    margin-right: 30px;
+}
+footer .ended .footer-icon.aboutus{
+    width:40%;
+}
+footer .ended .footer-icon.aboutus h3{
+    position: relative;
+    color:black;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .ended .footer-icon.aboutus p{
+    color: #999;
+}
+.lienket h3{
+    position: relative;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+.lienket{
+   position: relative;
+   width: 19%;
+}
+.lienket ul li{
+    list-style: none;
+}
+.lienket ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.lienket ul li a:hover{
+    color: black;
+}
+.contact h3{
+    position: relative;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+.contact{
+   position: relative;
+   width: 35%;
+}
+.contact ul li{
+    list-style: none;
+}
+.contact ul li p{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.end{
+    font-family: 'Gentium Basic', serif;
+    height: 70px;
+    background: whitesmoke;
+    line-height: 70px;
+    color: black;
+    text-align: center;
+}
+.ket{
+    color:black;
+}
